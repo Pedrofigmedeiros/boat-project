@@ -1,3 +1,9 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+
 body,
 main,
 h2 {

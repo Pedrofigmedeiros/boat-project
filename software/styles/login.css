@@ -1,0 +1,36 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+
+body,
+main,
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin: 30px;
+}
+
+.box {
+  border-width: 1px;
+  border-color: rgb(123, 121, 121);
+  border-style: solid;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  font-size: 12px;
+  margin: 40px;
+}
